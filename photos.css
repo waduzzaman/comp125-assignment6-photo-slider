@@ -1,0 +1,140 @@
+﻿* {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+   margin: 0;
+   padding: 0;
+   border: 0;
+   font-size: 100%;
+   font: inherit;
+   vertical-align: baseline;
+}
+footer {
+   display: block;
+}
+
+
+article, aside, details, figcaption, figure, header, hgroup, menu, nav, section {
+   display: block;
+}
+
+body {
+	line-height: 1;
+	width: 650px;
+	margin: 0 auto;
+	font-family: verdana, arial, helvetica, sans-serif;
+	position: relative;
+	background-color: #4A8BF4;
+}
+
+
+header {
+   color: white;
+   font-size: 3.7em;
+}
+
+header h1 {
+   text-align: center;
+   padding: 0.5em;
+}
+
+article {
+   background: white;
+   position: relative;
+}
+
+#leftarrow, #rightarrow {
+	background: #006600;
+	color: white;
+	position: absolute;
+	z-index: 30;
+	text-align: center;
+	height: 135px;
+	width: 40px;
+	top: 67px;
+}
+
+article div:hover {
+   cursor: default;
+}
+
+#leftarrow {
+   left: 0;
+}
+
+#rightarrow {
+   right: 0;
+}
+
+article p{
+   color: white;
+   position:relative;
+   text-align: center;
+}
+
+#leftarrow p, #rightarrow p {
+	position: relative;
+	top: 50%;
+	margin-top: -0.5em;
+	background-color: red;
+}
+
+figure {
+   position: absolute;
+   -webkit-box-shadow: 10px 0px 5px rgb(50, 50, 50),
+                       -10px 0px 5px rgb(50, 50, 50);
+   -moz-box-shadow:    10px 0px 5px rgb(50, 50, 50),
+                       -10px 0px 5px rgb(50, 50, 50);
+   box-shadow:         10px 0px 5px rgb(50, 50, 50),
+                       -10px 0px 5px rgb(50, 50, 50);
+}
+
+
+#fig3 {
+   z-index: 20;
+   left: 50%;
+   margin-left: -240px;
+   top: 0;
+}
+
+
+
+footer {
+   width: 100%;
+   font-size: 14px;
+   padding: 10px;
+   clear: both;
+   background: black;
+   color: rgb(227,198,32);
+}
+
+footer p {
+   text-align: center;
+}
+h1 {
+	border: thin solid #000000;
+	font-family: "Times New Roman", Times, serif;
+	font-size: xx-large;
+	font-weight: bold;
+	color: #FF0000;
+	font-style: normal;
+	font-variant: small-caps;
+	text-transform: capitalize;
+	background-color: #006600;
+}
